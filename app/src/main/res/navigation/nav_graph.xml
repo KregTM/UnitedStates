@@ -7,5 +7,13 @@
     <fragment
         android:id="@+id/initialFragment"
         android:name="com.ubisoft.unitedstates.initFragment.InitialFragment"
-        android:label="InitialFragment" />
+        android:label="InitialFragment" >
+        <action
+            android:id="@+id/action_initialFragment_to_obamaFragment"
+            app:destination="@id/obamaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/obamaFragment"
+        android:name="com.ubisoft.unitedstates.obamaFragment.ObamaFragment"
+        android:label="ObamaFragment" />
 </navigation>
